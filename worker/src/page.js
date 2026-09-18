@@ -4,7 +4,7 @@ export function getPageHtml() {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<title>WLOC 虚拟定位</title>
+<title>你可黄专用虚拟定位</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="WLOC">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
@@ -129,7 +129,7 @@ body { font-family:-apple-system,system-ui,"SF Pro","Helvetica Neue",sans-serif;
       <button class="btn btn-secondary" style="flex:none;min-width:56px" onclick="searchPlace()">搜索</button>
     </div>
   </div>
-  <div class="status" id="status">选好位置后点击「储存到设备」写入代理工具</div>
+  <div class="status" id="status"><h2>你可黄提示：</h2>选好位置后点击「储存到设备」写入代理工具</div>
 </div>
 <div class="toast" id="toast"></div>
 <div class="modal-overlay" id="favModal">
